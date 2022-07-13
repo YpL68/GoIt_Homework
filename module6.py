@@ -22,10 +22,6 @@ max_file_name_len = 0
 MAX_PRINT_STR_LEN = 60
 
 
-def output_to_console:
-
-
-
 def file_extension_print(extensions: set, header: str):
     if len(extensions):
         print(header + ":")
